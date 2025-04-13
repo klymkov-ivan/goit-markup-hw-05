@@ -541,6 +541,9 @@ button {
   fill: #fff;
 }
 
+.footer-form {
+  display: flex;
+}
 /* ----------------Modal window----------------- */
 
 .backdrop {
