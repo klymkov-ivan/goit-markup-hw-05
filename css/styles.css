@@ -673,6 +673,10 @@ button {
   margin-bottom: 8px;
 }
 
+.modal-checkbox {
+  margin-bottom: 16px;
+}
+
 .modal-input-wrap {
   position: relative;
 }
@@ -689,12 +693,18 @@ button {
   width: 100%;
   margin-bottom: 16px;
   display: block;
-  outline: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
   resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  outline: transparent;
 }
 
 .modal-comment:focus {
@@ -747,7 +757,6 @@ button {
   color: #8e8f99;
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
 
   a {
     line-height: 1.33333;
