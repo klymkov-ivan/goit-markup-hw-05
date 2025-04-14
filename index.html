@@ -544,28 +544,32 @@
             </div>
           </div>
 
-          <label for="user-comment" class="modal-label">Comment</label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            class="modal-comment"
-            placeholder="Text input"
-          ></textarea>
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-comment"
+              placeholder="Text input"
+            ></textarea>
+            <input
+              type="checkbox"
+              name="privacy-policy"
+              id="privacy-policy"
+              class="policy-checkbox visually-hidden"
+            />
+          </div>
 
-          <input
-            type="checkbox"
-            name="privacy-policy"
-            id="privacy-policy"
-            class="policy-checkbox visually-hidden"
-          />
-          <label for="privacy-policy" class="policy-text"
-            ><span class="new-checkbox">
-              <svg class="" width="10" height="10">
-                <use href="./images/icons.svg#icon-bird"></use>
-              </svg> </span
-            >I accept the terms and conditions of the&nbsp;
-            <a href="" class="policy-label">Privacy Policy</a></label
-          >
+          <div class="modal-field">
+            <label for="privacy-policy" class="policy-text"
+              ><span class="new-checkbox">
+                <svg class="" width="10" height="10">
+                  <use href="./images/icons.svg#icon-bird"></use>
+                </svg> </span
+              >I accept the terms and conditions of the&nbsp;
+              <a href="" class="policy-label">Privacy Policy</a></label
+            >
+          </div>
           <button type="submit" class="modal-submit-btn">Send</button>
         </form>
       </div>
