@@ -737,7 +737,7 @@ button {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin-bottom: 24px;
   background-color: #4d5ae5;
@@ -778,8 +778,25 @@ button {
   }
 }
 
+.new-checkbox {
+  fill: transparent;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
 .policy-checkbox:checked + .policy-text .new-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
+}
+
+.policy-label {
+  color: #4d5ae5;
 }
