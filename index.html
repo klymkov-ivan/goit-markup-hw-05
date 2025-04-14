@@ -469,27 +469,29 @@
         </div>
         <div>
           <p class="soc-text">Subscribe</p>
-          <form class="footer-form">
-            <label aria-label="footer-email">
-              <input
-                type="email"
-                name="user-email"
-                placeholder="E-mail"
-                class="user-email"
-              />
-            </label>
-            <button class="subscribe-btn">
-              Subscribe
-              <svg class="subscribe-icon" width="24" height="20">
-                <use href="./images/icons.svg#icon-subscribe"></use>
-              </svg>
-            </button>
-          </form>
+          <div class="footer-form-container">
+            <form class="footer-form">
+              <label aria-label="footer-email" class="email-label">
+                <input
+                  type="email"
+                  name="user-email"
+                  placeholder="E-mail"
+                  class="user-email"
+                />
+              </label>
+              <button class="subscribe-btn">
+                Subscribe
+                <svg class="subscribe-icon" width="24" height="20">
+                  <use href="./images/icons.svg#icon-subscribe"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
     <!-- ----------------Modal window----------------- -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal-window">
         <button type="button" class="modal-close-btn">
           <svg class="icon icon-close" width="8" height="8">
