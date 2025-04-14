@@ -763,6 +763,9 @@ button {
   display: flex;
   align-items: center;
 
+  span {
+    display: inline-flex;
+  }
   a {
     line-height: 1.33333;
     text-decoration: underline;
