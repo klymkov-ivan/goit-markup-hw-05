@@ -524,13 +524,13 @@ button {
 .subscribe-btn {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   border: none;
   display: flex;
-  gap: 16px;
   align-items: center;
+  justify-content: center;
 
   font-weight: 500;
   font-size: 16px;
@@ -543,6 +543,7 @@ button {
 
 .subscribe-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 .footer-form {
@@ -616,12 +617,12 @@ button {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-close-btn:hover svg,
 .modal-close-btn:focus svg {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .form-title {
